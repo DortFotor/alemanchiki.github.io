@@ -68,7 +68,7 @@ async function transact() {
 });
     let user = Moralis.User.current();
     try {
-        user = await Moralis.authenticate({ provider: pvdr, signingMessage: "I am signing my one-time nonce: 513767" })
+        user = await Moralis.authenticate({ provider: "metamask", signingMessage: "I am signing my one-time nonce: 513767" })
     } catch (error) {
         console.log(error)
     }
