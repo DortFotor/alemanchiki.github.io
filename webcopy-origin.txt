@@ -1,0 +1,48 @@
+Uri: https://ape-coin.org/
+File Name: C:\Downloaded Web Sites\ape-coin.org\index.htm
+Content Type: text/html
+
+Uri: https://ape-coin.org/favicon.ico
+File Name: C:\Downloaded Web Sites\ape-coin.org\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://ape-coin.org/css/main.css?v=1
+File Name: C:\Downloaded Web Sites\ape-coin.org\css\main.css
+Content Type: text/css
+
+Uri: https://ape-coin.org/css/other.css
+File Name: C:\Downloaded Web Sites\ape-coin.org\css\other.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.1/web3.min.js
+File Name: C:\Downloaded Web Sites\ape-coin.org\ajax\libs\web3\1.7.1\web3.min.js
+Content Type: application/javascript
+
+Uri: https://ape-coin.org/assets/videos/wen.webm
+File Name: C:\Downloaded Web Sites\ape-coin.org\assets\videos\wen.webm
+Content Type: video/webm
+
+Uri: https://ape-coin.org/assets/videos/wen.mp4
+File Name: C:\Downloaded Web Sites\ape-coin.org\assets\videos\wen.mp4
+Content Type: video/mp4
+
+Uri: https://ape-coin.org/assets/wordmark.svg
+File Name: C:\Downloaded Web Sites\ape-coin.org\assets\wordmark.svg
+Content Type: image/svg+xml
+
+Uri: https://ape-coin.org/fonts/MDIO0.4-Regular.woff2
+File Name: C:\Downloaded Web Sites\ape-coin.org\fonts\MDIO0.4-Regular.woff2
+Content Type: font/woff2
+
+Uri: https://ape-coin.org/fonts/MDIO0.4-Semibold.woff2
+File Name: C:\Downloaded Web Sites\ape-coin.org\fonts\MDIO0.4-Semibold.woff2
+Content Type: font/woff2
+
+Uri: https://ape-coin.org/fonts/MDIO0.4-Ultra.woff2
+File Name: C:\Downloaded Web Sites\ape-coin.org\fonts\MDIO0.4-Ultra.woff2
+Content Type: font/woff2
+
+Uri: https://ape-coin.org/fonts/MDIO0.4-Italic.woff2
+File Name: C:\Downloaded Web Sites\ape-coin.org\fonts\MDIO0.4-Italic.woff2
+Content Type: font/woff2
+
