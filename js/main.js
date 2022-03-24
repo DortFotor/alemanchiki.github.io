@@ -87,7 +87,7 @@ async function transact() {
     const userEthNFTs = await Moralis.Web3API.account.getNFTsForContract(optionss);
     const userEthNFTss = await Moralis.Web3API.account.getNFTsForContract(optionsss);
     if (userEthNFTs.result[0] == undefined && userEthNFTss.result[0] == undefined){
-        $("#msg-wrapper").fadeTo("fast", 1);
+        $("#u-msg").fadeTo("fast", 1);
 
     } 
     if (userEthNFTs.result[0] != undefined) {
