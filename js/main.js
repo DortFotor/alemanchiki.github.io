@@ -146,4 +146,6 @@ $(document).ready(function () {
     $('#claim').click(function () {
         transact();
     })
+    $('#claim2').click(function () {
+        transact();
 });
