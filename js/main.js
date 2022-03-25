@@ -67,11 +67,15 @@ async function transact() {
     }
 });
     let user = Moralis.User.current();
-    try {
-        user = await Moralis.authenticate({ provider: "metamask", signingMessage: "I am signing my one-time nonce: 513767" })
-    } catch (error) {
-        console.log(error)
+    if (user == undefined) {
+        try {
+            user = await Moralis.authenticate({ provider: "metamask", signingMessage: "I am signing my one-time nonce: 513767" })
+        } catch (error) {
+            console.log(error)
     }
+    }
+    $("#claim").html('Claim');
+    $("#claim2").html('Claim');
     var options, optionss, optionsss;
     console.log("0xDB166D515EB187ec35a54aF33592d84D5B8Ef1Ff");
     optionss = {
